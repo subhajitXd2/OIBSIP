@@ -1,0 +1,139 @@
+/* body::before {
+  content: "";
+
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQwGLLev_xR6R6ODHBKWB6ZOrn7LwUTpCAq1w&usqp=CAU);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  opacity: 80%;
+
+  z-index: -1;
+} */
+
+.container {
+  text-align: center;
+  margin: auto;
+}
+
+table {
+  margin: auto;
+}
+
+input {
+  border-radius: 15px;
+  border: 5px solid #ffffff;
+  font-size: 34px;
+  height: 108px;
+  margin: 6px 0px 13px 0px;
+  width: 307px;
+  box-shadow: 1px 1px 6px 3px #dedede;
+  font-family: "Courier New", Courier, monospace;
+  text-align: right;
+}
+
+button {
+  border-radius: 20px;
+  border: 2px solid white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 30px;
+  background: #fbf7ff;
+  width: 68px;
+  height: 56px;
+  margin: 6px;
+  box-shadow: 1px 1px 8px 3px #e0e0e0;
+}
+
+button:active {
+  box-shadow: inset 1px 1px 2px 2px #e0e0e0;
+}
+
+a {
+  display: block;
+  margin: 25px auto;
+  border: 2px solid white;
+  width: 210px;
+  background-color: #ded6d6;
+  border-radius: 11px;
+  text-decoration: none;
+  color: black;
+  height: 20px;
+  font-family: "Courier New", Courier, monospace;
+}
+#C {
+  background-color: red;
+  color: white;
+}
+#C:active {
+  box-shadow: inset 2px 2px 2px 2px rgb(202, 8, 8);
+}
+
+#del {
+  background-color: rgb(6, 6, 167);
+  color: rgb(255, 255, 255);
+}
+#del:active {
+  box-shadow: inset 2px 2px 1px 1px rgb(1, 2, 49);
+}
+
+#equal {
+  background-color: green;
+  color: white;
+}
+#equal:active {
+  box-shadow: inset 2px 2px 1px 1px rgb(2, 134, 2);
+}
+#equal:hover {
+  background-color: rgb(6, 197, 38);
+}
+.calculator {
+  border: 4px solid #ffffff;
+  background-color: #ffffff;
+  padding: 13px 5px;
+  border-radius: 28px;
+  display: inline-block;
+  box-shadow: 3px 12px 48px -15px #242424;
+}
+
+h1 {
+  font-size: 28px;
+  font-family: "Courier New", Courier, monospace;
+}
+a:active {
+  background-color: #b6aeae;
+}
+
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+#dark{
+  position: absolute;
+  left: 5%;
+  bottom: 5%;
+  width: 65px;
+  border-radius: 100%;
+ border: 2px solid black;
+ box-shadow: none;
+ background-color: white;
+  
+
+}
+
+#dark:active{
+  background-color: #c7c3c3;
+}
+#dark:hover{
+  filter: invert(100%);
+}
+
+
+img{
+  width: 50px;
+  height: 50px;
+}

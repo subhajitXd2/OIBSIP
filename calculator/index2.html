@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style2.css" />
+    <title>Scientific Calculator</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Scientific Calculator</h1>
+      <a href="index.html">Switch to Simple</a>
+
+      <div class="calculator">
+        <input type="text" name="screen" id="screen" />
+        <table>
+          <tr>
+            <td><button>sin</button></td>
+            <td><button>cos</button></td>
+            <td><button>tan</button></td>
+            <td><button>log</button></td>
+          </tr>
+          <tr>
+            <td><button>(</button></td>
+            <td><button>)</button></td>
+            <td><button>x^2</button></td>
+            <td><button onclick="sqrt()">√</button></td>
+          </tr>
+          <tr>
+            <td><button>π</button></td>
+            <td><button>e</button></td>
+            <td><button>!</button></td>
+            <td><button>1/x</button></td>
+          </tr>
+
+          <tr>
+            <td><button id="C">C</button></td>
+            <td><button>%</button></td>
+            <td><button id="del">⌫</button></td>
+            <td><button>÷</button></td>
+          </tr>
+          <tr>
+            <td><button>7</button></td>
+            <td><button>8</button></td>
+            <td><button>9</button></td>
+            <td><button>x</button></td>
+          </tr>
+          <tr>
+            <td><button>4</button></td>
+            <td><button>5</button></td>
+            <td><button>6</button></td>
+            <td><button>-</button></td>
+          </tr>
+          <tr>
+            <td><button>1</button></td>
+            <td><button>2</button></td>
+            <td><button>3</button></td>
+            <td><button>+</button></td>
+          </tr>
+          <tr>
+            <td><button>00</button></td>
+            <td><button>0</button></td>
+            <td><button>.</button></td>
+            <td><button id="equal">=</button></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </body>
+  <script src="script2.js"></script>
+</html>
